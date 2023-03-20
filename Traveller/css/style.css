@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #014286;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px
+}
+
+.logo i{
+    color: #fff;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 18px;
+    font-family: Lato;
+    letter-spacing: 0.1em;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+.menu li{
+    margin: 8px;
+    font-family: Lato;
+    font-weight: 300;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.menu i:hover{
+    font-size: 25px;
+}
+
+.hero {
+    background-image: url("../images/marhero.jpeg");
+    background-size: cover;
+    height: 515px;
+    display: flex;
+}
+
+.copy {
+    color: #000;
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 509px;
+    width: 700px;
+    flex-wrap: wrap;
+    z-index: 1;
+    filter: brightness(200%);
+}
+
+.copy h1{
+    font-size: 65px;
+    padding: 0px 0px 24px 60px;
+}
+
+.copy h2{
+    font-size: 30px;
+    padding: 0px 0px 120px 60px;
+}
+
+.blocktitle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #82D173;
+    }
+
+.blocktitle h1{
+    display: flex;
+    margin: 20px;
+    font-family: Lato;
+    font-size: 25px;
+}
+
+.blocktitle::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.cardblock{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+    background-color: #ABFAA9;
+}
+
+.card{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border: 1px solid #fff;
+    align-items: flex-end;
+    padding: 0px 0px 12px 12px;
+    margin: 40px;
+    font-family: Lato;
+    font-weight: 100;
+    color: #fff;
+}
+
+.card:hover{
+    box-shadow: -2px 2px 1px #014286;
+    position: relative; left: 3px; bottom: 3px;
+}
+
+.gastronomia{
+    background-image: url("../images/gastronomia.jpg");
+    background-size: cover;
+}
+
+.roteiros{
+    background-image: url("../images/roteiros.jpg");
+    background-size: cover;
+}
+
+.cultura{
+    background-image: url("../images/cultura.jpg");
+    background-size: cover;
+}
+
+.gulliverblock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #ABFAA9;
+}
+
+.gullliverfoto{
+    background-image: url("../images/gulliver.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin: 40px 60px;
+    border: 1px solid #fff;
+}
+
+
+.gullivercontent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 400px;
+    margin: 40px 60px;
+}
+
+.gullivercontent h1{
+    font-size: 40px;
+    font-family: Lato;
+    color: #014286;
+    filter: brightness(200%);
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.gullivercontent p{
+    font-size: 25px;
+    font-family: Lato;
+    color: #014286;
+    margin-bottom: 20px;
+    line-height: 1em;
+    font-weight: 700; 
+}
+
+.bottombar{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #014286;
+}
+
+.bottombar h1{
+    font-family: Lato;
+    font-size: 12px;
+    color: #fff;
+    margin: 8px;
+    font-weight: 100;
+}
